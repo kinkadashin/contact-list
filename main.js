@@ -23,7 +23,7 @@ function adicionarLinha() {
     const inputTelefone = document.getElementById('telefone');
 
     if (nomes.includes(inputNome.value)) {
-        alert(`A atividade ${inputNome.value} já foi inserida.`)
+        alert(`O usuario ${inputNome.value} já foi inserido(a).`)
     } else {
         nomes.push(inputNome.value);
         telefones.push(inputTelefone.value);
